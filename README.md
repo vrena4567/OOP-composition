@@ -4,7 +4,7 @@ This first exercise shall lead you through all the concepts involved in OOP Comp
 
 ![Author](res/Author.PNG)
 
-A class called Author (as shown in the class diagram) is designed to model a book's author. It contains:
+A class called `Author` (as shown in the class diagram) is designed to model a book's author. It contains:
 
 - Three private instance variables: `name` (String), `email` (String), and `gender` (char of either 'm' or 'f');
 - One constructor to initialize the `name`, `email` and `gender` with the given values;
@@ -34,7 +34,7 @@ A class called `Book` is designed (as shown in the class diagram) to model a boo
 - Four private instance variables: `name` (String), `author` (of the class `Author` you have just created,
 assume that a book has one and only one author), `price` (double), and `qty` (int);
 - Two constructors:
-`public Book (String name, Author author, double price) { ... }`
+`public Book (String name, Author author, double price) { ... }`, 
 `public Book (String name, Author author, double price, int qty) { ... }`
 - Public methods `getName()`, `getAuthor()`, `getPrice()`, `setPrice()`, `getQty()`, `setQty()`.
 - A `toString()` that returns "`Book[name=?,Author[name=?,email=?,gender=?],price=?,qty=?`".  
